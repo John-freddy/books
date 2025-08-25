@@ -13,7 +13,7 @@ El te acompañará en todo el proceso de entender y aplicar los conceptos de Luc
 
 ## Método SPIN
 
-![Método SPIN](/img/SPIN.png)
+![Método SPIN](/img/spin.png)
 
 ## Preguntas de Inicio
 
