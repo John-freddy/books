@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'LucUrna',
+  title: 'Vecin@ Inmobiliari@',
   tagline: 'Una fuente de luz en los momentos en que se necesita un poco de claridad.',
   favicon: 'img/lucurna-favicon.ico',
 
@@ -55,17 +55,17 @@ const config = {
   themeConfig: ({
     image: 'img/lucurna-social-card.png',
     navbar: {
-      title: 'LucUrna',
+      title: 'Vecin@ Inmobiliari@',
       logo: { alt: 'My Site Logo', src: 'img/lucurna-guayacan.svg' },
       items: [
-        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'Guía' },
+        { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'PlayBook' },
         // Si quieres botón a GitHub, descomenta y actualiza:
         // { href: 'https://github.com/John-freddy/playbook', label: 'GitHub', position: 'right' },
       ],
     },
     footer: {
       style: 'dark',
-      copyright: `© ${new Date().getFullYear()} LucUrna • Construido con ❤️ usando Docusaurus`,
+      copyright: `© ${new Date().getFullYear()} Books • Construidos con ❤️ usando Docusaurus`,
     },
     prism: { theme: prismThemes.github, darkTheme: prismThemes.dracula },
   }),
