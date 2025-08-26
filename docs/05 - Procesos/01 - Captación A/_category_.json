@@ -1,0 +1,8 @@
+{
+    "label": "Captación A",
+    "position":4,
+    "link":{
+        "type": "generated-index",
+        "description": "Proceso de Captación de Arrendamientos"
+    }
+}

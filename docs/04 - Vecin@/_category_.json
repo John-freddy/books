@@ -1,0 +1,8 @@
+{
+    "label": "Vecin@",
+    "position":4,
+    "link":{
+        "type": "generated-index",
+        "description": "Así es como vemos a nuestr@s vecin@s"
+    }
+}

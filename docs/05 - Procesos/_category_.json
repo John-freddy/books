@@ -1,0 +1,8 @@
+{
+    "label": "Procesos",
+    "position":5,
+    "link":{
+        "type": "generated-index",
+        "description": "Procesos usados para la implementación de L@s Vecin@s Inmobiliari@s"
+    }
+}

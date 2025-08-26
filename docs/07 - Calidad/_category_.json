@@ -1,0 +1,8 @@
+{
+    "label": "Calidad",
+    "position":7,
+    "link":{
+        "type": "generated-index",
+        "description": "Acuerdos de calidad que implementamos para L@s Vecin@s Inmobiliari@s"
+    }
+}
