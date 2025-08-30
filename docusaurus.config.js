@@ -23,8 +23,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es', // Cambiado a español
+    locales: ['es'],
   },
 
   // PlayBook (docs principal) via preset classic
@@ -33,7 +33,7 @@ const config = {
       'classic',
       {
         docs: {
-          sidebarPath: './sidebars.js', // Sidebar de PlayBook
+          sidebarPath: './sidebars.js',
           editUrl: 'https://github.com/John-freddy/books/tree/main/',
         },
         blog: {
@@ -49,14 +49,14 @@ const config = {
     ],
   ],
 
-  // Secciones adicionales (cada una es un plugin docs)
+  // Secciones adicionales
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'cb-ventas',                // identificador único
-        path: 'docs-cb-ventas',         // carpeta
-        routeBasePath: 'cb-ventas',     // /cb-ventas
+        id: 'cb-ventas',
+        path: 'docs-cb-ventas',
+        routeBasePath: 'cb-ventas',
         sidebarPath: './sidebars-cb-ventas.js',
         editUrl: 'https://github.com/John-freddy/books/tree/main/',
       },
@@ -64,36 +64,40 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'prospeccion',              // identificador único
-        path: 'docs-prospeccion',       // carpeta
-        routeBasePath: 'prospeccion',   // /prospeccion
+        id: 'prospeccion',
+        path: 'docs-prospeccion',
+        routeBasePath: 'prospeccion',
         sidebarPath: './sidebars-prospeccion.js',
         editUrl: 'https://github.com/John-freddy/books/tree/main/',
       },
     ],
   ],
 
-  // Búsqueda local (para Docusaurus v3)
-  themes: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
-      ({
-        indexDocs: true,
-        indexBlog: true,
-        indexPages: true,
-        language: ['es'],
-        // Incluye todas tus rutas base de docs
-        docsRouteBasePath: ['docs', 'cb-ventas', 'prospeccion'],
-        hashed: true,
-        highlightSearchTermsOnTargetPage: true,
-        searchResultLimits: 8,
-      }),
-    ],
-  ],
-
   themeConfig: {
+    // Meta tags para verificación de Algolia
+    metadata: [
+      {
+        name: 'algolia-site-verification',
+        content: '389E50B5E157BA38'
+      }
+    ],
     image: 'img/lucurna-social-card.png',
+    
+    // 🔍 CONFIGURACIÓN DE ALGOLIA
+    algolia: {
+      appId: 'TU_APP_ID', // Reemplazar cuando recibas las credenciales
+      apiKey: 'TU_SEARCH_API_KEY', // Reemplazar cuando recibas las credenciales
+      indexName: 'TU_INDEX_NAME', // Reemplazar cuando recibas las credenciales
+      
+      // Configuración opcional
+      contextualSearch: true, // Habilita búsqueda contextual
+      searchParameters: {}, // Parámetros adicionales de búsqueda
+      searchPagePath: 'search', // Página de resultados de búsqueda
+      
+      // Configuración para múltiples secciones de docs
+      facetFilters: [], // Se puede usar para filtrar por sección
+    },
+
     navbar: {
       title: 'Vecin@ Inmobiliari@',
       logo: { alt: 'My Site Logo', src: 'img/lucurna-guayacan.svg' },
@@ -101,7 +105,10 @@ const config = {
         { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'PlayBook' },
         { type: 'docSidebar', docsPluginId: 'prospeccion', sidebarId: 'prospeccionSidebar', position: 'left', label: 'Prospección' },
         { type: 'docSidebar', docsPluginId: 'cb-ventas', sidebarId: 'cbVentasSidebar', position: 'left', label: 'CB-Ventas' },
-        { type: 'search', position: 'right' }, // 🔎 botón de búsqueda
+        {
+          type: 'search',
+          position: 'right',
+        },
       ],
     },
     footer: {
