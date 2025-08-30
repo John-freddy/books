@@ -1,6 +1,6 @@
 ---
 title: Territorio
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Territorio
@@ -22,3 +22,4 @@ Primero, se ubica un territorio que potencialmente pueda albergar mínimo a 5 ve
 ## Estrategia de abordaje
 
 El propósito es poder ubicar a un vecino justo en la unidad que tenga mas inmuebles por entregar para que tenga el mayor acceso posible a propietarios e influenciadores.
+

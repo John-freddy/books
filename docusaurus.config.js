@@ -10,10 +10,10 @@ const config = {
   future: { v4: true },
 
   url: 'https://john-freddy.github.io',
-  baseUrl: '/playbook/',
+  baseUrl: '/books/',
 
   organizationName: 'John-freddy',
-  projectName: 'playbook',
+  projectName: 'books',
 
   trailingSlash: false,
 
