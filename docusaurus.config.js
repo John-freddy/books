@@ -31,12 +31,12 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js', // ← Sidebar de PlayBook
-          editUrl: 'https://github.com/John-freddy/playbook/tree/main/',
+          editUrl: 'https://github.com/John-freddy/books/tree/main/',
         },
         blog: {
           showReadingTime: true,
           feedOptions: { type: ['rss', 'atom'], xslt: true },
-          editUrl: 'https://github.com/John-freddy/playbook/tree/main/',
+          editUrl: 'https://github.com/John-freddy/books/tree/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -55,7 +55,7 @@ const config = {
         path: 'docs-cb-ventas',                  // carpeta que crearás
         routeBasePath: 'cb-ventas',              // URL base (/cb-ventas)
         sidebarPath: require.resolve('./sidebars-cb-ventas.js'),
-        editUrl: 'https://github.com/John-freddy/playbook/tree/main/',
+        editUrl: 'https://github.com/John-freddy/books/tree/main/',
       },
     ],
   ],
