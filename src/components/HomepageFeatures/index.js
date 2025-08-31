@@ -11,7 +11,7 @@ export default function HomepageFeatures() {
           display: 'flex',
           flexWrap: 'wrap',
           gap: '1rem',
-          justifyContent: 'space-between'
+          justifyContent: 'center'
         }}>
           {/* Sección 1 */}
           <div style={{ 
