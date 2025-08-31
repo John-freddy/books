@@ -23,3 +23,9 @@ Pero, liberándolos de operaciones que se pueden hacer por terceros de manera es
 3. Recibir Inmuebles.
 4. Recolectar documentos.
 5. Negociar en procesos de compra-venta.
+
+## Tares de otras areas
+
+1. Hacer contratos en tiempo récord.
+2. Tener documentación del propietarios lista y verificada.
+3. Que la Setter precalifique adecuadamente a los prospectos.

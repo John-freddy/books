@@ -11,4 +11,4 @@ Estas son algunas generalidades del proceso de captación de arrendamientos:
 
 Aunque siempre procuramos la exclusividad, en este caso, podemos hacer la captación de arrendamientos sin exclusividad.
 
-##
+La captación en ventas, siempre la haremos en exclusiva.

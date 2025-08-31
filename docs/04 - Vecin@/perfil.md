@@ -22,3 +22,7 @@ Es preciso que sea capaz de empatizar con las personas y sienta un compromiso re
 ## Eticas
 
 Un vecino va mas allá de la ética social establecida por las normas. No solo no mata, proteje la vida. No solo no roba, ayuda a cuidar. No solo no miente, ayuda a encontrar la verdad.
+
+## Experiencia
+
+En algunos lugares, prefieren personas con experiencia en T.A.T., debido a su experiencia en los procesos de barridos.

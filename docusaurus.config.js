@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Vecin@ Inmobiliari@',
   tagline: 'Una fuente de luz en los momentos en que se necesita un poco de claridad.',
-  favicon: 'img/lucurna-favicon.ico',
+  favicon: 'img/favicon.png',
 
   future: { v4: true },
 
@@ -81,7 +81,7 @@ const config = {
         content: '389E50B5E157BA38'
       }
     ],
-    image: 'img/lucurna-social-card.png',
+    image: 'img/royal-social-card.png',
     
     // 🔍 CONFIGURACIÓN DE ALGOLIA
     algolia: {
@@ -100,7 +100,7 @@ const config = {
 
     navbar: {
       title: 'Vecin@ Inmobiliari@',
-      logo: { alt: 'My Site Logo', src: 'img/lucurna-guayacan.svg' },
+      logo: { alt: 'My Site Logo', src: 'img/logo.svg' },
       items: [
         { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'PlayBook' },
         { type: 'docSidebar', docsPluginId: 'prospeccion', sidebarId: 'prospeccionSidebar', position: 'left', label: 'Prospección' },
