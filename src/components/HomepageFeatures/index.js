@@ -21,8 +21,8 @@ export default function HomepageFeatures() {
           }}>
             <div className="card" style={{ height: '100%', padding: '1rem', textAlign: 'center' }}>
               <img 
-                src="img/prueba.svg" 
-                alt="Esencia del proyecto"
+                src="img/cercania.png" 
+                alt="CERCANÍA"
                 style={{ 
                   width: '90%', 
                   maxWidth: '150px',
@@ -34,9 +34,9 @@ export default function HomepageFeatures() {
                   margin: '0 auto 1.5rem auto'
                 }}
               />
-              <h3 style={{ marginBottom: '0.5rem' }}>1) Esencia del proyecto</h3>
+              <h3 style={{ marginBottom: '0.5rem' }}>CERCANÍA</h3>
               <p style={{ fontSize: '0.9rem' }}>
-                Explica en 3–4 líneas el espíritu del proyecto: propósito, principios y resultados.
+                Tu vecin@ inmobiliari@ se encuentra a 5 minutos.
               </p>
             </div>
           </div>
@@ -49,8 +49,8 @@ export default function HomepageFeatures() {
           }}>
             <div className="card" style={{ height: '100%', padding: '1rem', textAlign: 'center' }}>
               <img 
-                src="img/prueba.svg" 
-                alt="Método de trabajo"
+                src="img/familiaridad.png" 
+                alt="FAMILIARIDAD"
                 style={{ 
                   width: '90%', 
                   maxWidth: '150px',
@@ -62,11 +62,9 @@ export default function HomepageFeatures() {
                   margin: '0 auto 1.5rem auto'
                 }}
               />
-              <h3 style={{ marginBottom: '0.5rem' }}>2) Método / Cómo trabajamos</h3>
+              <h3 style={{ marginBottom: '0.5rem' }}>FAMILIARIDAD</h3>
               <ul style={{ fontSize: '0.9rem', paddingLeft: '1.2rem', textAlign: 'left' }}>
-                <li>Marco general (enfoque, pasos, buenas prácticas).</li>
-                <li>Qué cambia en el día a día del agente (rutinas clave).</li>
-                <li>Cómo medimos el progreso (métricas simples).</li>
+                Lo que dicen los vecinos: "Es un@ de nosot@s"
               </ul>
             </div>
           </div>
@@ -79,8 +77,8 @@ export default function HomepageFeatures() {
           }}>
             <div className="card" style={{ height: '100%', padding: '1rem', textAlign: 'center' }}>
               <img 
-                src="img/prueba.svg" 
-                alt="Herramientas y recursos"
+                src="img/conocimiento.png" 
+                alt="CONOCIMIENTO"
                 style={{ 
                   width: '90%', 
                   maxWidth: '150px',
@@ -92,11 +90,9 @@ export default function HomepageFeatures() {
                   margin: '0 auto 1.5rem auto'
                 }}
               />
-              <h3 style={{ marginBottom: '0.5rem' }}>3) Herramientas y recursos</h3>
+              <h3 style={{ marginBottom: '0.5rem' }}>CONOCIMIENTO</h3>
               <ul style={{ fontSize: '0.9rem', paddingLeft: '1.2rem', textAlign: 'left' }}>
-                <li>Plantillas y checklists esenciales.</li>
-                <li>Guías rápidas de conversación / objeciones.</li>
-                <li>Enlaces a capítulos del PlayBook.</li>
+                "Nos conocemos." Es lo que nuestr@s vecin@s pueden decir de las personas en su vecindario.
               </ul>
             </div>
           </div>
@@ -109,8 +105,8 @@ export default function HomepageFeatures() {
           }}>
             <div className="card" style={{ height: '100%', padding: '1rem', textAlign: 'center' }}>
               <img 
-                src="img/prueba.svg" 
-                alt="Implementación"
+                src="img/relacionamiento.png" 
+                alt="RELACIONAMIENTO"
                 style={{ 
                   width: '90%', 
                   maxWidth: '150px',
@@ -122,11 +118,9 @@ export default function HomepageFeatures() {
                   margin: '0 auto 1.5rem auto'
                 }}
               />
-              <h3 style={{ marginBottom: '0.5rem' }}>4) Implementación y próximos pasos</h3>
+              <h3 style={{ marginBottom: '0.5rem' }}>RELACIONAMIENTO</h3>
               <ol style={{ fontSize: '0.9rem', paddingLeft: '1.2rem', textAlign: 'left' }}>
-                <li>Cómo empezar (primeros 7 días).</li>
-                <li>Cómo escalar al equipo (roles y cadencia).</li>
-                <li>Soporte y contribuciones (cómo enviar mejoras).</li>
+                "Nos ayudamos". Así somos l@s vecin@s.
               </ol>
             </div>
           </div>

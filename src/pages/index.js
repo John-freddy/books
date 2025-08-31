@@ -12,7 +12,7 @@ export default function Home() {
       <header className="hero hero--primary">
         <div className="container">
           <h1 className="hero__title">Vecin@ Inmobiliari@</h1>
-          <p className="hero__subtitle">Una guía clara y práctica para el día a día inmobiliario.</p>
+          <p className="hero__subtitle"> "Somos la única inmobiliaria en Cali que te asigna una Vecina Inmobiliaria: una agente experta que vive y respira tu mismo barrio."</p>
         </div>
       </header>
       <main>
