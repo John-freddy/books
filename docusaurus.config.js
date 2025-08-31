@@ -4,7 +4,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Vecin@ Inmobiliari@',
-  tagline: 'Una fuente de luz en los momentos en que se necesita un poco de claridad.',
+  tagline: 'Somos la única inmobiliaria en Cali que te asigna una Vecina Inmobiliaria: una agente experta que vive y respira tu mismo barrio.',
   favicon: 'img/favicon.ico',
 
   future: { v4: true },
@@ -75,12 +75,40 @@ const config = {
 
   themeConfig: {
     // Meta tags para verificación de Algolia
-    metadata: [
+
+  metadata: [
+      // Meta tag existente de Algolia
       {
         name: 'algolia-site-verification',
         content: '389E50B5E157BA38'
+      },
+      // 👇 NUEVOS META TAGS PARA MÓVILES
+      {
+        name: 'apple-mobile-web-app-capable',
+        content: 'yes'
+      },
+      {
+        name: 'apple-mobile-web-app-status-bar-style',
+        content: 'default'
+      },
+      {
+        name: 'apple-mobile-web-app-title',
+        content: 'Vecin@ Inmobiliari@'
+      },
+      {
+        name: 'mobile-web-app-capable',
+        content: 'yes'
+      },
+      {
+        name: 'theme-color',
+        content: '#2e8555'
+      },
+      {
+        name: 'msapplication-TileColor',
+        content: '#2e8555'
       }
     ],
+
     image: 'img/royal-social-card.png',
     
     // 🔍 CONFIGURACIÓN DE ALGOLIA
