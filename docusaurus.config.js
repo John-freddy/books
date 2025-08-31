@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'Vecin@ Inmobiliari@',
   tagline: 'Una fuente de luz en los momentos en que se necesita un poco de claridad.',
-  favicon: 'img/favicon.png',
+  favicon: 'img/favicon.ico',
 
   future: { v4: true },
 
