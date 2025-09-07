@@ -110,11 +110,11 @@ const config = {
 
     image: 'img/royal-social-card.png',
     
-    // 🔍 CONFIGURACIÓN DE ALGOLIA CON CREDENCIALES REALES
+    // 🔍 CONFIGURACIÓN DE ALGOLIA CON CREDENCIALES CORRECTAS
     algolia: {
-      appId: 'Q3QDW0IZ16',
+      appId: 'Q3ODWOIZ16',
       apiKey: '9283c44b00952c238549d2d6bac85c40',
-      indexName: 'john-freddy_books', // Si no funciona, prueba con 'books' solamente
+      indexName: 'Books', // Si no funciona, probaremos variaciones
       
       // Configuración opcional
       contextualSearch: true,
