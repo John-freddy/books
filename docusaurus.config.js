@@ -73,15 +73,26 @@ const config = {
     ],
   ],
 
-  themeConfig: {
-    // Meta tags para verificación de Algolia
-    metadata: [
-      // Meta tag existente de Algolia
+  // 🔍 BÚSQUEDA LOCAL (gratuita y funciona en desarrollo y producción)
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
       {
-        name: 'algolia-site-verification',
-        content: '6DDC6B58B3FC019C'
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        language: ['es'],
+        docsRouteBasePath: ['docs', 'cb-ventas', 'prospeccion'],
+        hashed: true,
+        highlightSearchTermsOnTargetPage: true,
+        searchResultLimits: 8,
       },
-      // 👇 NUEVOS META TAGS PARA MÓVILES
+    ],
+  ],
+
+  themeConfig: {
+    // Meta tags para móviles
+    metadata: [
       {
         name: 'apple-mobile-web-app-capable',
         content: 'yes'
@@ -109,24 +120,6 @@ const config = {
     ],
 
     image: 'img/royal-social-card.png',
-    
-    // 🔍 CONFIGURACIÓN DE ALGOLIA CON CREDENCIALES CORRECTAS
-    algolia: {
-      appId: 'CEHR4G892B',
-      apiKey: '88dc8f094ea5b65ee498c93a4451204f',
-      indexName: 'john_freddy_github_io_cehr4g892b_pages', // Prueba primero con este nombre simple
-      
-      // Configuración opcional
-      contextualSearch: true,
-      searchParameters: {},
-      searchPagePath: 'search',
-      
-      // Configuración para múltiples secciones de docs
-      facetFilters: [],
-      
-      // Debug para desarrollo
-      debug: true, // Activé debug para ver más información
-    },
 
     navbar: {
       title: 'Vecin@ Inmobiliari@',
