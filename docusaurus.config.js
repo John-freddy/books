@@ -75,8 +75,7 @@ const config = {
 
   themeConfig: {
     // Meta tags para verificación de Algolia
-
-  metadata: [
+    metadata: [
       // Meta tag existente de Algolia
       {
         name: 'algolia-site-verification',
@@ -111,19 +110,22 @@ const config = {
 
     image: 'img/royal-social-card.png',
     
-    // 🔍 CONFIGURACIÓN DE ALGOLIA
+    // 🔍 CONFIGURACIÓN DE ALGOLIA CON CREDENCIALES REALES
     algolia: {
-      appId: 'TU_APP_ID', // Reemplazar cuando recibas las credenciales
-      apiKey: 'TU_SEARCH_API_KEY', // Reemplazar cuando recibas las credenciales
-      indexName: 'TU_INDEX_NAME', // Reemplazar cuando recibas las credenciales
+      appId: 'Q3QDW0IZ16',
+      apiKey: '9283c44b00952c238549d2d6bac85c40',
+      indexName: 'john-freddy_books', // Si no funciona, prueba con 'books' solamente
       
       // Configuración opcional
-      contextualSearch: true, // Habilita búsqueda contextual
-      searchParameters: {}, // Parámetros adicionales de búsqueda
-      searchPagePath: 'search', // Página de resultados de búsqueda
+      contextualSearch: true,
+      searchParameters: {},
+      searchPagePath: 'search',
       
       // Configuración para múltiples secciones de docs
-      facetFilters: [], // Se puede usar para filtrar por sección
+      facetFilters: [],
+      
+      // Debug para desarrollo
+      debug: false,
     },
 
     navbar: {
