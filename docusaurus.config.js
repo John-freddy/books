@@ -9,25 +9,21 @@ const config = {
 
   future: { v4: true },
 
-  // GitHub Pages (usuario/repositorio)
   url: 'https://john-freddy.github.io',
   baseUrl: '/books/',
 
-  // Repo
   organizationName: 'John-freddy',
   projectName: 'books',
 
   trailingSlash: false,
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'es', // Cambiado a español
+    defaultLocale: 'es',
     locales: ['es'],
   },
 
-  // PlayBook (docs principal) via preset classic
   presets: [
     [
       'classic',
@@ -49,7 +45,6 @@ const config = {
     ],
   ],
 
-  // Secciones adicionales
   plugins: [
     [
       '@docusaurus/plugin-content-docs',
@@ -73,25 +68,7 @@ const config = {
     ],
   ],
 
-  // 🔍 BÚSQUEDA LOCAL (configuración mínima para evitar errores)
-  themes: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: false,
-        language: ['es'],
-        docsRouteBasePath: 'docs',
-        hashed: false, // Simplificado
-        highlightSearchTermsOnTargetPage: false, // Simplificado
-        searchResultLimits: 5,
-      },
-    ],
-  ],
-
   themeConfig: {
-    // Meta tags para móviles
     metadata: [
       {
         name: 'apple-mobile-web-app-capable',
