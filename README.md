@@ -44,3 +44,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 # sales
 Guía Práctica | Entrenamiento en Ventas 
 >>>>>>> 65055959ca6f736498480bf8860cebc2458de719
+ 
