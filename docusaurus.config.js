@@ -112,9 +112,9 @@ const config = {
     
     // 🔍 CONFIGURACIÓN DE ALGOLIA CON CREDENCIALES CORRECTAS
     algolia: {
-      appId: '6MLDO8YD9E',
-      apiKey: '42a50725232e96aef18d325beba7b500',
-      indexName: 'Books', // Prueba primero con este nombre simple
+      appId: 'CEHR4G892B',
+      apiKey: '88dc8f094ea5b65ee498c93a4451204f',
+      indexName: 'john_freddy_github_io_cehr4g892b_pages', // Prueba primero con este nombre simple
       
       // Configuración opcional
       contextualSearch: true,
