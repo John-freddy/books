@@ -114,7 +114,7 @@ const config = {
     algolia: {
       appId: 'Q3ODWOIZ16',
       apiKey: '9283c44b00952c238549d2d6bac85c40',
-      indexName: 'Books', // Si no funciona, probaremos variaciones
+      indexName: 'books', // Prueba primero con este nombre simple
       
       // Configuración opcional
       contextualSearch: true,
@@ -125,7 +125,7 @@ const config = {
       facetFilters: [],
       
       // Debug para desarrollo
-      debug: false,
+      debug: true, // Activé debug para ver más información
     },
 
     navbar: {
