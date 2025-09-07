@@ -114,7 +114,7 @@ const config = {
     algolia: {
       appId: 'Q3ODWOIZ16',
       apiKey: '9283c44b00952c238549d2d6bac85c40',
-      indexName: 'books', // Prueba primero con este nombre simple
+      indexName: 'Books', // Prueba primero con este nombre simple
       
       // Configuración opcional
       contextualSearch: true,
