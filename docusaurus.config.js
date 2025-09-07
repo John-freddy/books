@@ -73,23 +73,6 @@ const config = {
     ],
   ],
 
-  // 🔍 BÚSQUEDA LOCAL (gratuita y funciona en desarrollo y producción)
-  themes: [
-    [
-      '@easyops-cn/docusaurus-search-local',
-      {
-        indexDocs: true,
-        indexBlog: true,
-        indexPages: true,
-        language: ['es'],
-        docsRouteBasePath: ['docs', 'cb-ventas', 'prospeccion'],
-        hashed: true,
-        highlightSearchTermsOnTargetPage: true,
-        searchResultLimits: 8,
-      },
-    ],
-  ],
-
   themeConfig: {
     // Meta tags para móviles
     metadata: [
