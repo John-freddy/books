@@ -79,7 +79,7 @@ const config = {
       // Meta tag existente de Algolia
       {
         name: 'algolia-site-verification',
-        content: '389E50B5E157BA38'
+        content: 'C17931DDEBF59387'
       },
       // 👇 NUEVOS META TAGS PARA MÓVILES
       {
