@@ -73,6 +73,23 @@ const config = {
     ],
   ],
 
+  // 🔍 BÚSQUEDA LOCAL (configuración mínima para evitar errores)
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      {
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        language: ['es'],
+        docsRouteBasePath: 'docs',
+        hashed: false, // Simplificado
+        highlightSearchTermsOnTargetPage: false, // Simplificado
+        searchResultLimits: 5,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Meta tags para móviles
     metadata: [
@@ -111,10 +128,6 @@ const config = {
         { type: 'docSidebar', sidebarId: 'tutorialSidebar', position: 'left', label: 'PlayBook' },
         { type: 'docSidebar', docsPluginId: 'prospeccion', sidebarId: 'prospeccionSidebar', position: 'left', label: 'Prospección' },
         { type: 'docSidebar', docsPluginId: 'cb-ventas', sidebarId: 'cbVentasSidebar', position: 'left', label: 'CB-Ventas' },
-        {
-          type: 'search',
-          position: 'right',
-        },
       ],
     },
     footer: {
