@@ -79,7 +79,7 @@ const config = {
       // Meta tag existente de Algolia
       {
         name: 'algolia-site-verification',
-        content: 'C17931DDEBF59387'
+        content: '8F71E87B170AE9D5'
       },
       // 👇 NUEVOS META TAGS PARA MÓVILES
       {
@@ -112,8 +112,8 @@ const config = {
     
     // 🔍 CONFIGURACIÓN DE ALGOLIA CON CREDENCIALES CORRECTAS
     algolia: {
-      appId: 'Q3ODWOIZ16',
-      apiKey: '9283c44b00952c238549d2d6bac85c40',
+      appId: '81D1OBH61M',
+      apiKey: 'a48881bb67a39f6061f77c4a4e65e617',
       indexName: 'Books', // Prueba primero con este nombre simple
       
       // Configuración opcional
